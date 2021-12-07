@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import App from './App';
+import { Global } from './Styles/Global';
 
 ReactDOM.render (
-	<React.StrictMode>
+	<React.Fragment>
+		<Global/>
 		<App/>
-	</React.StrictMode>,
+	</React.Fragment>,
 	document.getElementById ('root')
 );

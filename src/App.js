@@ -1,12 +1,13 @@
 import React from 'react';
 
-import NavBar from './Components/NavBar';
-import Main from './Components/Main';
+import { NavBar, Main, Footer } from './Components/index';
 
 const App = () => (
 	<>
+
 		<NavBar/>
 		<Main/>
+		<Footer/>
 	</>
 )
 

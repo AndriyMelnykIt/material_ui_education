@@ -7,7 +7,7 @@ import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 
 import { useStyles } from '../Styles/Styles';
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1, 2, 3, 4, 5, 6];
 
 const Main = () => {
 	const classes = useStyles ();
@@ -81,7 +81,7 @@ const Main = () => {
 								/>
 								<CardContent className={classes.cardContent}>
 									<Typography variant="h5" gutterBottom>
-										Blog Post
+										Leather goods
 									</Typography>
 									<Typography>
 										Phillip Miller - leather goods

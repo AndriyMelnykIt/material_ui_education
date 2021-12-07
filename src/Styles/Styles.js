@@ -1,9 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles ((theme) => ({
-	root: {
-		flexGrow: 1
-	},
 	menuButton: {
 		marginRight: theme.spacing (1)
 	},
@@ -32,7 +29,7 @@ export const useStyles = makeStyles ((theme) => ({
 		marginTop: theme.spacing (6)
 	},
 	cardMedia: {
-		paddingTop: '56.25%'
+		paddingTop: '100%'
 	},
 	cardContent: {
 		flexGrow: 1
