@@ -1,17 +1,15 @@
 import React from 'react';
-import { Container, Toolbar, AppBar, IconButton, Typography, Box } from '@material-ui/core';
+import { Container, Toolbar, IconButton, Typography, AppBar, Box, Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import Button from '@mui/material/Button';
 
 import { useStyles } from '../Styles/Styles';
 
 const NavBar = () => {
-
 	const classes = useStyles ();
 
 	return (
-		<AppBar position='fixed'>
-			<Container fixed>
+		<AppBar position='static'>
+			<Container>
 				<Toolbar>
 					<IconButton edge='start'
 					    color='inherit' aria-label='menu' className={classes.menuButton}>
